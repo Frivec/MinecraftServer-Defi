@@ -1,0 +1,21 @@
+description 'Main project for the server'
+version '1.0-SNAPSHOT'
+
+apply plugin: 'java'
+apply plugin: 'eclipse'
+
+allprojects {
+
+	apply plugin: 'java'
+	apply plugin: 'eclipse'
+	
+	group = 'fr.frivec'
+	
+	repositories {
+
+		mavenCentral()
+		mavenLocal()
+
+	}
+	
+}
